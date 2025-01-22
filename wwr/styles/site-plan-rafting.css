@@ -14,7 +14,7 @@ Fonts are separated by a & */
 
   /* TODO: Week02 - change the values below to your chosen font(s). */
   /* TODO: Week02 - make sure you provide more than one font option for each to handle fallback */
-  --heading-font: "Times New Roman", IM Fell French Canon, serif;
+  --heading-font: "Times New Roman", "IM Fell French Canon", serif;
   --paragraph-font: Arial, Helvetica, sans-serif;
 
   /* TODO: Week02 - these colors below should be chosen from among your palette colors above */
