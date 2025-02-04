@@ -7,6 +7,9 @@ nav a {
     color:#000000;
     text-decoration: none;
 }
+.hero {
+    text-align: center;
+}
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
