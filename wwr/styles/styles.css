@@ -4,9 +4,16 @@
 }
 nav a {
     text-align: center;
+    color:#000000;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+}
+.home-title {
+    color:#000000;
+}
+h4 {
+    color:#000000;
 }
 .buttonbox {
     text-align: center;
@@ -26,16 +33,37 @@ header {
 }
 nav a:hover {
     background-color: #000000;
+    color: white;
 }
 .book, .join {
     background-color: #301b8b;
 }
 .book:hover, .join:hover {
     background-color: #000000;
+    color: white;
 }
 .msg {
     background-color: #301b8b;
 }
+.msg h2 _{
+    color: #000000;
+}
+.msg p {
+    color: #000000;
+}
 footer {
     background-color: #301b8b;
+    color:aliceblue;
+}
+footer a {
+    color:aliceblue;
+}
+footer a:hover {
+    color: #000000;
+}
+.icon {
+    width: 80px;
+}
+#hero-img {
+    width: 100%;
 }
