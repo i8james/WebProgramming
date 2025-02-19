@@ -2,6 +2,10 @@
 /* Activity 1 styles */
 .content1 {
     /* This is the parent of the activity 1 boxes. */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
 }
 .red1 { 
 width: 100px; 
@@ -25,27 +29,54 @@ background-color: blue;
 } 
  /* Activity 2 styles */ 
 .content2 {
-    /* This is the parent of the activity 2 boxes. */
+    position: relative;
+    }
+
+    .red2, .green2, .blue2, .yellow2 {
+        position: absolute;
+    }
+
+    .green2 {
+        top: 20px;
+        left: 20px;
+    }
+
+    .blue2 {
+        top: 40px;
+        left: 40px;
+    }
+
+    .yellow2 {
+        top: 60px;
+        left: 60px;
 }
 .red2 {
 width: 100px; 
 height: 100px; 
-background-color: red; 
+background-color: red;
+top: 0;
+left: 0;
 } 
 .green2 { 
 width: 100px; 
 height: 100px; 
-background-color: green; 
+background-color: green;
+top: 20px;
+left: 20px; 
  } 
 .yellow2 {
 width: 100px; 
 height: 100px; 
-background-color: gold; 
+background-color: gold;
+top: 40px;
+left: 40px; 
 } 
 .blue2 {
 width: 100px; 
 height: 100px; 
-background-color: blue; 
+background-color: blue;
+top: 60px;
+left: 60px;
 } 
  /* Activity 3 styles */ 
 .content3 {
