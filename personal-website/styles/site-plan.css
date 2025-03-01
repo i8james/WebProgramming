@@ -134,7 +134,9 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
-
+img {
+  max-height: 300px;
+}
 .sitemap {
   display: grid;
   justify-content: center;
