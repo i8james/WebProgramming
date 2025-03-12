@@ -52,6 +52,11 @@ nav a {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+.contact-us {
+    text-align: center;
+    padding: 20px;
+    margin: 30px auto;
+}
 .rivers-card {
     grid-column: 2/4;
     grid-row: 2/3;
