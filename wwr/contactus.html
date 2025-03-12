@@ -20,8 +20,27 @@
             <a href="contactus.html">Contact Us</a>
         </nav>
     </header>
-    <div id="feedback"></div>
     <main class="contact-us">
+        <div id="feedback">
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" />
+              </p>
+              <p>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" />
+              </p>
+              <p>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </p>
+              <p class="button">
+                <button type="submit">Send your message</button>
+              </p>
+              <textarea>
+                by default this element is filled with this text
+                </textarea>                
+        </div>
         <section class="msg">
             <h1>Contact Us</h1>
             <img src = "images/oars.png" alt = "oars" class = "oars">
@@ -70,7 +89,6 @@
         </div>
     </footer>
     </div>
-    </body>
     <script>
         // get the feedback div element so we can do something with it.
         const feedbackElement = document.getElementById('feedback');
@@ -87,5 +105,6 @@
             // add a class to move everything down so our message doesn't cover it.
             document.body.classList.toggle('moveDown');
         });
-    </script>    
+    </script>
+    </body>  
 </html>
