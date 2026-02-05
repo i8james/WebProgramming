@@ -1,0 +1,72 @@
+body {
+    background-color: #FFECD7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.card {
+    background-color: #008DB1;
+    border: 3px solid #004E63;
+    border-radius: 15px;
+    padding: 30px;
+    width: 350px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h1 {
+    color: #FFFFFF;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 0 10px 0;
+    font-size: 28px;
+}
+
+.card .subtitle {
+    color: #91E4FB;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 0 20px 0;
+    font-size: 14px;
+}
+
+.card img {
+    width: 100%;
+    max-width: 200px;
+    border: 3px solid #000000;
+    margin: 20px 0;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.card li {
+    margin: 8px 0;
+}
+
+.card .quote {
+    color: #FFD783;
+    font-family: "Brush Script MT", "Nanum Brush Script", cursive;
+    font-style: italic;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.card a {
+    color: #91E4FB;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
