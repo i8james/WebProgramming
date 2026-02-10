@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+    <main>
+      <div class="content-box">
+        <h2>My Favorite Devotionals</h2>
+        <table class="devotional-table">
+          <thead>
+            <tr>
+              <th>Speaker</th>
+              <th>Title</th>
+              <th>Location</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Russell M. Nelson</td>
+              <td>The Power of Faith</td>
+              <td>Salt Lake City, UT</td>
+              <td>2023</td>
+            </tr>
+            <tr>
+              <td>Dallin H. Oaks</td>
+              <td>Loving Others</td>
+              <td>Salt Lake City, UT</td>
+              <td>2022</td>
+            </tr>
+            <tr>
+              <td>Henry B. Eyring</td>
+              <td>Following the Savior</td>
+              <td>Salt Lake City, UT</td>
+              <td>2021</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Add a New Devotional</h3>
+        <form class="devotional-form">
+          <div class="form-group">
+            <label for="speaker">Speaker:</label>
+            <input type="text" id="speaker" name="speaker" required="">
+          </div>
+          <div class="form-group">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required="">
+          </div>
+          <div class="form-group">
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required="">
+          </div>
+          <div class="form-group">
+            <label for="year">Year:</label>
+            <input type="number" id="year" name="year" required="">
+          </div>
+          <button type="submit" class="submit-btn">Add Devotional</button>
+        </form>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
